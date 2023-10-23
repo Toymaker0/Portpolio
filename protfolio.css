@@ -1,0 +1,135 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+h1{
+    color: blue;
+}
+body{
+    background-color: azure;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgb(250, 242, 233);
+    margin: 20px;
+
+}
+.nav-left{
+padding: 10px;
+
+}
+.nav-right{
+display: flex;
+}
+.nav-right>div{
+    margin: auto 5px;
+    }
+.content{
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+}
+.button1:hover{
+    color: brown;
+}
+.button1{
+    border-color: rgb(235, 161, 108);
+    border-radius: 3px;
+}
+.content-left{
+display: flex;
+justify-content: center ;
+}
+.content-right{
+    padding: 0px;
+
+}
+.gearform-photo{
+    width: 100px;
+    height: 100px;
+}
+.info-button{
+    border-radius: 9px;
+    border-color:rgb(187, 187, 238) ;
+    background-color:rgb(232, 241, 213);
+    padding: 3px;
+}
+.info-button:hover{
+    color: rgb(162, 162, 233);
+}
+.center-align-items{
+    
+    text-align: center;
+    padding: 5px;
+}
+.name-vasanth{
+    text-align: center;
+    color: ;
+}
+.logo{
+    color: blue;
+}
+.f{
+    color: red;
+}
+.section-nav{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+.box{
+    border: 2px solid black;
+    border-radius: 20px 0px;
+    padding: 9px;
+    margin: 9px;
+}
+@media screen and (min-width:600px){
+    .content{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        }
+
+        .nav{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+        
+        }
+} */
+/* .button1{
+    border-color: rgb(238, 173, 157);
+    border-radius: 30px;
+    color: aliceblue;
+    background-color: rgb(230, 63, 34);
+} */
+.photo{
+    max-width: 300px;
+    max-height: 350px;
+    text-align: left;
+    border-radius: 20px;
+}
+.dark{
+    border: 2px solid red;
+}
+.to_fit{
+    min-height: 95vh;
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+
+}
+@media screen and (width > 1600px ){
+    .to_fit{
+        min-height:auto;
+        display: flex ;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+}
